@@ -15,7 +15,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://login-signup-frontend-update1.netlify.app"
+        "https://agritech-login-register.netlify.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
